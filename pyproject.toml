@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "hotleaks-downloader"
+version = "1"
+description = ""
+authors = ["braveltd <belicoff0505@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+httpx = {extras = ["http2"], version = "^0.28.1"}
+loguru = "^0.7.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
